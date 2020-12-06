@@ -6,7 +6,7 @@
 /*   By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/05 22:06:20 by kaye              #+#    #+#             */
-/*   Updated: 2020/12/06 21:47:11 by kaye             ###   ########.fr       */
+/*   Updated: 2020/12/06 22:10:52 by kaye             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -174,7 +174,6 @@ restart:
     printf("Your Mask IP : \033[1;36m%d.%d.%d.%d\n\033[0m", part_mask1, part_mask2, part_mask3, part_mask4);
     printf("Your Mask IP on CIDR : \033[1;36m%d\n\n\033[0m", get_cidr(part_mask1) + get_cidr(part_mask2) + get_cidr(part_mask3) + get_cidr(part_mask4));
     printf("The IP adress you can use : \033[31m%ld\n\033[0m", range - 2);
-    printf("The IP adress Total : \033[31m%ld\n\033[0m", range);
     printf("\n");
     printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
     scanf("%s", re);

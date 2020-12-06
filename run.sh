@@ -6,7 +6,7 @@
 #    By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/12/05 18:04:42 by kaye              #+#    #+#              #
-#    Updated: 2020/12/06 21:53:45 by kaye             ###   ########.fr        #
+#    Updated: 2020/12/06 22:11:18 by kaye             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,5 +15,5 @@
 
 Make all
 Make clean
-./netwhat_helper_v1.0
+./netwhat_helper_v1.1
 Make fclean
