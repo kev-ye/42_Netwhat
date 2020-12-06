@@ -6,7 +6,7 @@
 /*   By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/05 22:03:03 by kaye              #+#    #+#             */
-/*   Updated: 2020/12/06 20:58:50 by kaye             ###   ########.fr       */
+/*   Updated: 2020/12/06 21:46:54 by kaye             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ restart:
     range = 0;
     printf("\033[1;32m======================================================================\n\033[0m");
     printf("\n");
-    printf("-------------------------> 3. Calcul IP/MASK. <-----------------------\n");
+    printf("-------------------------> 4. Calcul IP/MASK. <-----------------------\n");
     printf("\n");
     printf("Entrer your ip : (separate on 4 parts)\n\n");
     printf("\033[1;36mpart 1 : \033[0m");
@@ -75,7 +75,7 @@ restart:
     }
     system("clear");
     printf("\033[1;32m======================================================================\n\033[0m");
-    printf("-------------------------> 3. Calcul IP/MASK. <-----------------------\n");
+    printf("-------------------------> 4. Calcul IP/MASK. <-----------------------\n");
     printf("\n");
     printf("Your IP : \033[1;36m%d.%d.%d.%d\n\033[0m", part_ip1, part_ip2, part_ip3, part_ip4);
     printf("\nMode MASK IP :\033[1;36mIP -> (1)\033[0m / \033[1;31mCIDR -> (2)\n\033[0m");
@@ -85,7 +85,7 @@ restart:
     {
         system("clear");
         printf("\033[1;32m======================================================================\n\033[0m");
-        printf("-------------------------> 3. Calcul IP/MASK. <-----------------------\n");
+        printf("-------------------------> 4. Calcul IP/MASK. <-----------------------\n");
         printf("\n");
         printf("Your IP : \033[1;36m%d.%d.%d.%d\n\033[0m", part_ip1, part_ip2, part_ip3, part_ip4);
         printf("Entrer your ip : (separate on 4 parts)\n\n");
@@ -102,7 +102,7 @@ restart:
     {
         system("clear");
         printf("\033[1;32m======================================================================\n\033[0m");
-        printf("-------------------------> 3. Calcul IP/MASK. <-----------------------\n");
+        printf("-------------------------> 4. Calcul IP/MASK. <-----------------------\n");
         printf("\n");
         printf("Your IP : \033[1;36m%d.%d.%d.%d\n\033[0m", part_ip1, part_ip2, part_ip3, part_ip4);
         printf("\n\033[1;31mEnter Mask ip on number : \033[0m"); 
@@ -218,7 +218,7 @@ restart:
     last_ip = get_range_ip(first_ip, range);
     system("clear");
     printf("\033[1;32m======================================================================\n\033[0m");
-    printf("-------------------------> 3. Calcul IP/MASK. <-----------------------\n");
+    printf("-------------------------> 4. Calcul IP/MASK. <-----------------------\n");
     printf("\n");
     printf("Your IP : \033[1;36m%d.%d.%d.%d\033[0m with Mask IP : \033[1;36m%d.%d.%d.%d\n\033[0m", part_ip1, part_ip2, part_ip3, part_ip4, part_mask1, part_mask2, part_mask3, part_mask4);
     printf("Your IP/CIDR : \033[1;36m%d.%d.%d.%d\033[0m/\033[1;36m%d\n\n\033[0m", part_ip1, part_ip2, part_ip3, part_ip4, (get_cidr(part_mask1) + get_cidr(part_mask2) + get_cidr(part_mask3) + get_cidr(part_mask4)));

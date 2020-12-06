@@ -6,7 +6,7 @@
 #    By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/12/05 17:33:11 by kaye              #+#    #+#              #
-#    Updated: 2020/12/06 21:24:26 by kaye             ###   ########.fr        #
+#    Updated: 2020/12/06 21:49:34 by kaye             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,8 @@ SUB_SRC := main.c \
 	  	   calcul_ip_with_mask.c \
 	  	   calcul_mask.c \
 	  	   get_range_ip.c \
-	  	   init_ip.c
+	  	   init_ip.c \
+		   model_osi.c
 SRC		:= $(addprefix $(SRC_DIR)/, $(SUB_SRC))
 OBJ 	:= $(SRC:%.c=$(OBJ_DIR)/%.o)
 
@@ -60,10 +61,10 @@ $(NAME): $(OBJ)
 all: $(NAME)
 
 clean:
-		rm -rf $(OBJ_DIR)
+		@rm -rf $(OBJ_DIR)
 
 fclean: clean
-		rm -rf $(NAME)
+		@rm -rf $(NAME)
 
 re: fclean all
 

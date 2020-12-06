@@ -6,7 +6,7 @@
 /*   By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/05 22:06:20 by kaye              #+#    #+#             */
-/*   Updated: 2020/12/06 20:57:52 by kaye             ###   ########.fr       */
+/*   Updated: 2020/12/06 21:47:11 by kaye             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ restart:
     tmp_mask_ip_num = 0;
     range = 0;
     printf("\033[1;32m======================================================================\n\033[0m");
-    printf("-------------------------> 4. Calcul IP/MASK. <-----------------------\n");
+    printf("-------------------------> 5. Calcul IP/MASK. <-----------------------\n");
     printf("\n");
     printf("Mode MASK IP :\033[1;36mIP -> (1)\033[0m / \033[1;31mCIDR -> (2)\n\033[0m");
     printf("Enter mode : ");
@@ -43,7 +43,7 @@ restart:
     {
         system("clear");
         printf("\033[1;32m======================================================================\n\033[0m");
-        printf("-------------------------> 4. Calcul MASK. <--------------------------\n");
+        printf("-------------------------> 5. Calcul MASK. <--------------------------\n");
         printf("\n");        
         printf("Entrer your ip : (separate on 4 parts)\n\n");
         printf("\033[1;36mpart 1 : \033[0m");
@@ -59,7 +59,7 @@ restart:
     {
         system("clear");
         printf("\033[1;32m======================================================================\n\033[0m");
-        printf("-------------------------> 4. Calcul MASK. <--------------------------\n");
+        printf("-------------------------> 5. Calcul MASK. <--------------------------\n");
         printf("\n");
         printf("\n\033[1;31mEnter Mask ip on number : \033[0m"); 
         scanf("%d", &mask_ip_num);
@@ -169,7 +169,7 @@ restart:
     range = get_ip_number(part_mask1, part_mask2, part_mask3, part_mask4) + 2;
     system("clear");
     printf("\033[1;32m======================================================================\n\033[0m");
-    printf("-------------------------> 4. Calcul MASK. <--------------------------\n");
+    printf("-------------------------> 5. Calcul MASK. <--------------------------\n");
     printf("\n");
     printf("Your Mask IP : \033[1;36m%d.%d.%d.%d\n\033[0m", part_mask1, part_mask2, part_mask3, part_mask4);
     printf("Your Mask IP on CIDR : \033[1;36m%d\n\n\033[0m", get_cidr(part_mask1) + get_cidr(part_mask2) + get_cidr(part_mask3) + get_cidr(part_mask4));
