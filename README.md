@@ -1,6 +1,6 @@
 # Netwhat
 
-This net_what can help you for your 42 projet : netwhat.
+This netwhat script can help you for your 42 projet : netwhat.
 
 How to run ?
 
