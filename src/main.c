@@ -6,7 +6,7 @@
 /*   By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/05 17:40:20 by kaye              #+#    #+#             */
-/*   Updated: 2020/12/06 23:55:46 by kaye             ###   ########.fr       */
+/*   Updated: 2020/12/07 01:32:06 by kaye             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ menu:
         printf("\n");
         printf("\033[1;31m-------------------------> Back menu ? (y/n) : \033[0m");
         scanf("%s", re);
-        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -66,7 +65,6 @@ menu:
         printf("\n");
         printf("\033[1;31m-------------------------> back menu ? (y/n) : \033[0m");
         scanf("%s", re);
-        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -88,7 +86,6 @@ menu:
         printf("\n");
         printf("\033[1;31m-------------------------> Back menu ? (y/n) : \033[0m");
         scanf("%s", re);
-        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -106,7 +103,6 @@ menu:
         printf("\n");
         printf("\033[1;31m-------------------------> back menu ? (y/n) : \033[0m");
         scanf("%s", re);
-        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -124,7 +120,6 @@ menu:
         printf("\n");
         printf("\033[1;31m-------------------------> back menu ? (y/n) : \033[0m");
         scanf("%s", re);
-        getchar();
         if (re[0] == 'y')
         {
             system("clear");

@@ -6,7 +6,7 @@
 /*   By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/05 22:06:20 by kaye              #+#    #+#             */
-/*   Updated: 2020/12/07 00:03:40 by kaye             ###   ########.fr       */
+/*   Updated: 2020/12/07 01:35:02 by kaye             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ restart:
             printf("ERROR\n");
             printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
             scanf("%s", re);
-            getchar();
+
             if (re[0] == 'y')
             {
                 system("clear");
@@ -146,7 +146,6 @@ restart:
         printf("ERROR\n");
         printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
         scanf("%s", re);
-        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -160,7 +159,6 @@ restart:
         printf("ERROR\n");
         printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
         scanf("%s", re);
-        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -181,7 +179,6 @@ restart:
     printf("\n");
     printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
     scanf("%s", re);
-    getchar();
     if (re[0] == 'y')
     {
         system("clear");
