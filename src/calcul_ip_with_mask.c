@@ -6,7 +6,7 @@
 /*   By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/05 22:03:03 by kaye              #+#    #+#             */
-/*   Updated: 2020/12/07 01:35:12 by kaye             ###   ########.fr       */
+/*   Updated: 2020/12/07 02:02:08 by kaye             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,7 @@ restart:
         printf("ERROR\n");
         printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
         scanf("%s", re);
+        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -78,7 +79,7 @@ restart:
     printf("-------------------------> 4. MASK IP. <------------------------------\n");
     printf("\n");
     printf("Your IP : \033[1;36m%d.%d.%d.%d\n\033[0m", part_ip1, part_ip2, part_ip3, part_ip4);
-    printf("\nMode MASK IP :\033[1;36mIP -> (1)\033[0m / \033[1;31mCIDR -> (2)\n\033[0m");
+    printf("\nMode MASK IP :\033[1;36mIP -> (1)\033[0m / \033[1;31mCIDR -> (2)\n\n\033[0m");
     printf("Enter mode : ");
     scanf("%d", &mask_mode);
     if (mask_mode == 1)
@@ -88,7 +89,7 @@ restart:
         printf("\n");
         printf("-------------------------> 4. Mode MASK IP. <-------------------------\n");
         printf("\n");
-        printf("Your IP : \033[1;36m%d.%d.%d.%d\n\033[0m", part_ip1, part_ip2, part_ip3, part_ip4);
+        printf("Your IP : \033[1;36m%d.%d.%d.%d\n\n\033[0m", part_ip1, part_ip2, part_ip3, part_ip4);
         printf("Entrer your ip : (separate on 4 parts)\n\n");
         printf("\033[1;36mpart 1 : \033[0m");
         scanf("%d", &part_mask1);
@@ -114,7 +115,7 @@ restart:
             printf("ERROR\n");
             printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
             scanf("%s", re);
-
+            getchar();
             if (re[0] == 'y')
             {
                 system("clear");
@@ -189,6 +190,7 @@ restart:
         printf("ERROR\n");
         printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
         scanf("%s", re);
+        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -202,6 +204,7 @@ restart:
         printf("ERROR\n");
         printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
         scanf("%s", re);
+        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -231,6 +234,7 @@ restart:
     printf("\n");
     printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
     scanf("%s", re);
+    getchar();
     if (re[0] == 'y')
     {
         system("clear");

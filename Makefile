@@ -6,7 +6,7 @@
 #    By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/12/05 17:33:11 by kaye              #+#    #+#              #
-#    Updated: 2020/12/06 22:11:15 by kaye             ###   ########.fr        #
+#    Updated: 2020/12/07 02:03:41 by kaye             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ DIRS	:= $(OBJ_DIR) $(addprefix $(OBJ_DIR)/, $(SRC_DIR))
 
 # File
 
-NAME := netwhat_helper_v1.1
+NAME := netwhat_helper_v1.2
 
 SUB_SRC := main.c \
 	  	   get_ip_number.c \

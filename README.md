@@ -9,4 +9,4 @@ How to run ?
 or
 
 -> make / make all
--> ./netwhat_helper_v1.1
+-> ./netwhat_helper_v1.2

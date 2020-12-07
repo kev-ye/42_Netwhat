@@ -6,7 +6,7 @@
 /*   By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/05 17:40:20 by kaye              #+#    #+#             */
-/*   Updated: 2020/12/07 01:32:06 by kaye             ###   ########.fr       */
+/*   Updated: 2020/12/07 02:01:12 by kaye             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ menu:
     printf("\n");
     printf("-------------------------> Enter choose : ");
     scanf("%d", &choose);
+    getchar();
     system("clear");
     if (choose == 1)
     {
@@ -42,18 +43,10 @@ menu:
         printf("\n");
         address_prive();
         printf("\n");
-        printf("\033[1;31m-------------------------> Back menu ? (y/n) : \033[0m");
-        scanf("%s", re);
-        if (re[0] == 'y')
-        {
-            system("clear");
-            goto menu;
-        }
-        else
-        {
-            system("clear");
-            exit(0);
-        }
+        printf("---> Press enter to continu ...");
+        getchar();
+        system("clear");
+        goto menu;
     }
     else if (choose == 2)
     {
@@ -63,18 +56,10 @@ menu:
         printf("\n");
         address_public();
         printf("\n");
-        printf("\033[1;31m-------------------------> back menu ? (y/n) : \033[0m");
-        scanf("%s", re);
-        if (re[0] == 'y')
-        {
-            system("clear");
-            goto menu;
-        }
-        else
-        {
-            system("clear");
-            exit(0);
-        }
+        printf("---> Press enter to continu ...");
+        getchar();
+        system("clear");
+        goto menu;
     }
     else if (choose == 3)
     {
@@ -84,49 +69,24 @@ menu:
         printf("\n");
         model_osi();
         printf("\n");
-        printf("\033[1;31m-------------------------> Back menu ? (y/n) : \033[0m");
-        scanf("%s", re);
-        if (re[0] == 'y')
-        {
-            system("clear");
-            goto menu;
-        }
-        else
-        {
-            system("clear");
-            exit(0);
-        }
+        printf("---> Press enter to continu ...");
+        getchar();
+        system("clear");
+        goto menu;
     }
     else if (choose == 4)
     {
         calcul_ip_with_mask();
         printf("\n");
-        printf("\033[1;31m-------------------------> back menu ? (y/n) : \033[0m");
-        scanf("%s", re);
-        if (re[0] == 'y')
-        {
-            system("clear");
-            goto menu;
-        }
-        else
-        {
-            system("clear");
-            exit(0);
-        }
+        system("clear");
+        goto menu;
     }
     else if (choose == 5)
     {
         calcul_mask();
         printf("\n");
-        printf("\033[1;31m-------------------------> back menu ? (y/n) : \033[0m");
-        scanf("%s", re);
-        if (re[0] == 'y')
-        {
-            system("clear");
-            goto menu;
-        }
-        else
-            exit(0);
+        system("clear");
+        goto menu;
     }
     else if (choose == 0)
     {

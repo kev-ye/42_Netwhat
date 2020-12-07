@@ -6,7 +6,7 @@
 /*   By: kaye <kaye@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/05 22:06:20 by kaye              #+#    #+#             */
-/*   Updated: 2020/12/07 01:35:02 by kaye             ###   ########.fr       */
+/*   Updated: 2020/12/07 02:00:00 by kaye             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ restart:
     printf("\n");
     printf("-------------------------> 5. Calcul Mask IP. <-----------------------\n");
     printf("\n");
-    printf("Mode :\033[1;36mIP -> (1)\033[0m / \033[1;31mCIDR -> (2)\n\033[0m");
+    printf("Mode :\033[1;36mIP -> (1)\033[0m / \033[1;31mCIDR -> (2)\n\n\033[0m");
     printf("Enter mode : ");
     scanf("%d", &mask_mode);
     if (mask_mode == 1)
@@ -71,7 +71,7 @@ restart:
             printf("ERROR\n");
             printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
             scanf("%s", re);
-
+            getchar();
             if (re[0] == 'y')
             {
                 system("clear");
@@ -146,6 +146,7 @@ restart:
         printf("ERROR\n");
         printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
         scanf("%s", re);
+        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -159,6 +160,7 @@ restart:
         printf("ERROR\n");
         printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
         scanf("%s", re);
+        getchar();
         if (re[0] == 'y')
         {
             system("clear");
@@ -179,6 +181,7 @@ restart:
     printf("\n");
     printf("\033[1;31m-------------------------> restart ? (y/n) : \033[0m");
     scanf("%s", re);
+    getchar();
     if (re[0] == 'y')
     {
         system("clear");
