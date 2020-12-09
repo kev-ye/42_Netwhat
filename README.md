@@ -6,7 +6,7 @@
 * How to run ?
     * bash run.sh
 
-or
-
-* make / make all
+    * or
+    
+    * make / make all
     * ./netwhat_helper_v1.2
